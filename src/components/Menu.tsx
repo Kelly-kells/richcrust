@@ -5,6 +5,7 @@ import { useState } from "react";
 
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
+import CartIcon from "./CartIcon";
 
 const navMenu = () => {
 
@@ -40,7 +41,9 @@ const navMenu = () => {
                 <Link href="/login">Login</Link>
                 ):
                ( <Link href="/order">Order</Link>)}
-               <Link href="/cart"></Link>
+               <Link href="/cart">
+                <CartIcon/>
+               </Link>
             </div>
         </div>
     )

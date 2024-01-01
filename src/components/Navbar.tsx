@@ -9,7 +9,7 @@ const Navbar = () => {
       {/*logo*/}
       <div >
       <Link href='/'>
-        RichCrust
+       <img src="/logo.png" alt="logo" width={30} height={20} />
       </Link>
       </div>
        {/*mobile-menu*/}

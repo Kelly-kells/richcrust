@@ -6,10 +6,10 @@ const CartIcon = () => {
 
   return (
     <Link href="/cart" className='flex items-center '>
-      <div className='relative w-8 h8'>
-        <BsCart4 />
+      <div className='relative w-10 h10 text-primary'>
+        <BsCart4 style={{ fontSize: '24px' }}/>
       </div>
-      <span>Cart(3)</span>
+      <span >Cart(3)</span>
     </Link>
   )
 }

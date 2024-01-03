@@ -30,21 +30,25 @@ const navMenu = () => {
                 <MdClose style={IconStyle} onClick={() => setOpen(false)} />
             )
             }
-            <div className="bg-gray-950 text-white 
-            absolute left-0 top-24 h-1/2 w-40 rounded-md flex flex-col items-center  justify-center gap-4 z-10 ">
-                {links.map(item => (
-                    <Link href={item.url} key={item.id}>
-                        {item.title}
-                    </Link>
-                ))}
-                {!user ? (
-                <Link href="/login">Login</Link>
-                ):
-               ( <Link href="/order">Order</Link>)}
-               <Link href="/cart">
-                <CartIcon/>
-               </Link>
-            </div>
+            { open && (
+                <div className="bg-gray-950 text-white 
+                absolute mt-4 left-0 p-4 h-1/2 w-full text-center rounded-md flex flex-col items-center justify-center gap-4  ">
+                    {links.map(item => (
+                        <Link href={item.url} key={item.id} onClick={()=> setOpen(false)}>
+                            {item.title}
+                        </Link>
+                    ))}
+                    {!user ? (
+                    <Link href="/login" onClick={()=> setOpen(false)}>Login</Link>
+                    ):
+                   ( <Link href="/order" onClick={()=> setOpen(false)}>Orders</Link>)}
+                   <Link href="/cart" onClick={()=> setOpen(false)} >
+                    <CartIcon/>
+                   </Link>
+                </div>
+            )
+            
+            }
         </div>
     )
 }

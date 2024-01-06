@@ -32,7 +32,7 @@ const navMenu = () => {
             }
             { open && (
                 <div className="bg-gray-950 text-white 
-                absolute mt-4 left-0 p-4 h-1/2 w-full text-center rounded-md flex flex-col items-center justify-center gap-4  ">
+                absolute mt-4 left-0 p-4 h-74 w-full text-center rounded-md flex flex-col items-center justify-center gap-4  ">
                     {links.map(item => (
                         <Link href={item.url} key={item.id} onClick={()=> setOpen(false)}>
                             {item.title}

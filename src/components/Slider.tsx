@@ -37,7 +37,7 @@ const Slider = () => {
 
     <div className="bg-cover bg-center h-screen flex items-center justify-center transition-opacity ease-in-out"
       style={{ backgroundImage: `url(${data[currentSlider].Image})` }}>
-      <div className='bg-primary  m-4 p-8 opacity-85'>
+      <div className='bg-primary  m-4 p-4 opacity-85'>
         <h1 className="text-white text-4xl md:text-5xl w-full text-center font-extrabold animate__animated animate__bounceInDown ">{data[currentSlider].title}
         </h1>
         <button className='bg-black text-primary text-xl md:text-2xl ml-8 font-semibold rounded-md p-2 mt-6'>Order now!</button>

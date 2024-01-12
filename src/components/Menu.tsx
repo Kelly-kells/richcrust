@@ -19,7 +19,7 @@ const navMenu = () => {
     const links = [
         { id: 1, title: "Home", url: "/" },
         { id: 2, title: "Menu", url: "/menu" },
-        { id: 3, title: "Working Hours", url: "/working hours" },
+        
         { id: 4, title: "contact", url: "/ contact" }
     ]
     return (

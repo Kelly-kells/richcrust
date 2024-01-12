@@ -14,7 +14,7 @@ export const featuredProducts: Products = [
         id: 1,
         title: "Sicilian",
         desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
-        img: "/pizza-menu/cayan.png",
+        img: "/pizza-menu/sicilian.png",
         price: 24.9,
         options: [
             {
@@ -180,9 +180,9 @@ export const featuredProducts: Products = [
     },
     {
         id: 9,
-        title: "Hawaiian Teriyaki",
-        desc: "Experience a taste of the tropics with a juicy beef patty glazed in tangy teriyaki sauce, topped with grilled pineapple, crispy bacon, and fresh lettuce, and all the classic fixings on a toasted bun.",
-        img: "/temporary/p9.png",
+        title: "Seafood",
+        desc: "Experience a taste of the tropics with a juicy beef patty glazed in tangy Seafood sauce, topped with grilled pineapple, crispy bacon, and fresh lettuce, and all the classic fixings on a toasted bun.",
+        img: "/pizza-menu/seafood.png",
         price: 29.9,
         options: [
             {

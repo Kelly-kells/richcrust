@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         primary: '#e4b61a',
       },
+      
     },
   },
   plugins: [],

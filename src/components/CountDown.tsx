@@ -1,9 +1,17 @@
-import React from 'react'
+"use client";
+import React from 'react';
+import Countdown from 'react-countdown';
 
 const CountDown = () => {
-  return (
-    <div>CountDown</div>
-  )
-}
+  const endDate = new Date('2024-03-15');
 
-export default CountDown
+  return (
+    <div>
+      <Countdown className='text-5xl text-primary font-bold' date={endDate} />
+    </div>
+  );
+};
+
+export default CountDown;
+;
+

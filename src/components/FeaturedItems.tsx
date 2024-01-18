@@ -11,7 +11,7 @@ const FeaturedItems = () => {
         {/*SINGLE Container */}
         {featuredProducts.map((item) => (
 
-          <div key={item.id} className="w-screen h-[60vh] flex  flex-col items-center bg-[#ffe863]
+          <div key={item.id} className="w-screen  flex  flex-col items-center bg-[#ffe863]
 justify-around p-4 hover:transition-all duration-300 md:w-[50vw] xl:w-[33vw] lg:h-[90vh]">
             {/*Image container */}
 

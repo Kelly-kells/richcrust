@@ -10,7 +10,7 @@ const Offer = () => {
         <CountDown />
         <button className=' bg-red-700 text-white py-3 px-6 mt-4 font-meduim rounded-md '>Order Now</button>
       </div>
-      <div className=' flex-1   w-full relative animate-pulse'>
+      <div className=' flex-1   w-full relative '>
         <img src="/offer/burger.png" alt="burger" width={500} className='object-cover' />
       </div>
     </div>

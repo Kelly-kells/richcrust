@@ -25,9 +25,11 @@ const CountDown = () => {
     };
   });
   return (
-    <span className="font-bold text-5xl text-yellow-300">
+   <div>
+     <span className="font-bold text-5xl text-yellow-300"  suppressHydrationWarning>
       {d}:{h}:{m}:{s}
     </span>
+   </div>
   );
 };
 
